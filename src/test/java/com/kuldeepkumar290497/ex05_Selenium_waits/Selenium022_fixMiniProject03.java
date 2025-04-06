@@ -44,6 +44,7 @@ public class Selenium022_fixMiniProject03 {
 //        }
         WebElement error_message = driver.findElement(By.className("notification-box-description"));
         Assert.assertEquals(error_message.getText(),"Your email, password, IP address or location did not match");
+        driver.quit();
 
 
     }
