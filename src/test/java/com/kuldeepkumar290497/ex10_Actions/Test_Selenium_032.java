@@ -17,7 +17,8 @@ public class Test_Selenium_032 extends TestCaseBoilerPlate {
         WebElement FirstName = driver.findElement(By.name("firstname")); // Locating Element
 
         Actions actions = new Actions(driver);
-        actions.keyDown(Keys.SHIFT).sendKeys(FirstName,"hello kuldeep!").keyUp(Keys.SHIFT).build().perform();
+        actions
+                .keyDown(Keys.SHIFT).sendKeys(FirstName,"hello kuldeep!").keyUp(Keys.SHIFT).build().perform();
 
     }
 }

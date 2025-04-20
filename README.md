@@ -1,6 +1,6 @@
 
 # Selenium Learning Guide with Examples
-Author - Pramod Dutta
+Author - Kuldeep Kumar
 
 ## 📌 Introduction
 This repository is a comprehensive guide to learning Selenium with Java, covering essential concepts and integrating various tools such as TestNG, Maven, Allure Report, Jenkins, and more. This guide provides practical examples to help you master Selenium automation testing.
