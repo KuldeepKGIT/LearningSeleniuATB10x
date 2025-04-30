@@ -15,6 +15,7 @@ public class TestCaseBoilerPlate {
     public void OpenBrowser(){
         EdgeOptions options = new EdgeOptions();
         options.addArguments("--incognito");
+        options.addArguments("--start-maximize");
          driver = new EdgeDriver(options);
     }
 
