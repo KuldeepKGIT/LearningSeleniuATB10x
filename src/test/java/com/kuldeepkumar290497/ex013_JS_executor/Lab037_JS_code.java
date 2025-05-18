@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import java.awt.*;
+
 
 public class Lab037_JS_code extends TestCaseBoilerPlate {
     @Test
@@ -16,9 +16,9 @@ public class Lab037_JS_code extends TestCaseBoilerPlate {
 
         JavascriptExecutor js = (JavascriptExecutor)driver;
         WebElement div_to_scroll = driver.findElement(By.xpath("//div[@id=\"userName\"]"));
-//        js.executeScript("arguments[0].scrollIntoView(true);",div_to_scroll);
+      js.executeScript("arguments[0].scrollIntoView(true);",div_to_scroll);
 
-        js.executeScript("window.scrollBy(0,500);");
+        //js.executeScript("window.scrollBy(0,500);");
 
         String url = js.executeScript("return document.URL;").toString();
         System.out.println(url);

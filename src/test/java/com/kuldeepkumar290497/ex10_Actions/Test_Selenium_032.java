@@ -14,11 +14,10 @@ public class Test_Selenium_032 extends TestCaseBoilerPlate {
         driver.get(URL);
         driver.manage().window().maximize();
 
-        WebElement FirstName = driver.findElement(By.name("firstname")); // Locating Element
+        WebElement firstName = driver.findElement(By.name("firstname")); // Locating Element
 
         Actions actions = new Actions(driver);
-        actions
-                .keyDown(Keys.SHIFT).sendKeys(FirstName,"hello kuldeep!").keyUp(Keys.SHIFT).build().perform();
+        actions.keyDown(Keys.SHIFT).sendKeys(firstName,"hello kuldeep!").keyUp(Keys.SHIFT).build().perform();
 
     }
 }
