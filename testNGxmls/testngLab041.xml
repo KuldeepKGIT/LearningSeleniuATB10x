@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="3">
+    <test name="Parallel Data Driven Test">
+        <classes>
+            <class name="com.kuldeepkumar290497.ex015_DataDriven.Lab041_DDT_poi">
+                <methods>
+                    <include name="Test_VWO_login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
