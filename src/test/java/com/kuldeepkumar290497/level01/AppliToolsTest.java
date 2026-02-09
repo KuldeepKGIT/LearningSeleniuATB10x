@@ -29,4 +29,5 @@ public class AppliToolsTest extends TestCaseBoilerPlate {
         Assert.assertNotEquals(earned,0.0);
     }
 
+
 }

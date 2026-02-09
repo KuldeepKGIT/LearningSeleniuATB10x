@@ -27,6 +27,7 @@ public class Selenium026_select {
 //        select_dropDown.selectByValue("2");
         select_dropDown.selectByVisibleText("Option 1");
 
+
         // Explicit wait
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

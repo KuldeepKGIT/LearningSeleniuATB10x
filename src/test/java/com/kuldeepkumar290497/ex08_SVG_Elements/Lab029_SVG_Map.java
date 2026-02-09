@@ -15,7 +15,9 @@ import java.util.List;
 import static com.kuldeepkumar290497.ex07_waitHelpers.WaitHelpers.checkVisibility;
 import static com.kuldeepkumar290497.ex07_waitHelpers.WaitHelpers.waitJVM;
 
-public class Lab029_SVG_Map {
+public class
+
+Lab029_SVG_Map {
     EdgeDriver driver;
 
     @BeforeTest
