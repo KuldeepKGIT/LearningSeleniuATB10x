@@ -13,11 +13,11 @@ public class TestCaseBoilerPlate {
 
     @BeforeTest
     public void OpenBrowser(){
-//        EdgeOptions options = new EdgeOptions();
-//        options.addArguments("--incognito");
-//        options.addArguments("--start-maximize");
-//         driver = new EdgeDriver(options);
-        driver = new ChromeDriver();
+        EdgeOptions options = new EdgeOptions();
+        options.addArguments("--incognito");
+        options.addArguments("--start-maximize");
+         driver = new EdgeDriver(options);
+//        driver = new ChromeDriver();
 
     }
 
