@@ -2,6 +2,7 @@ package com.kuldeepkumar290497;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -12,8 +13,10 @@ public class TCBoilerPlate {
 
     @BeforeTest
     public void OpenBrowser(){
- driver = new ChromeDriver();
- driver.manage().window().maximize();
+        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headed=new");
+        options.addArguments("--start-maximized");
+        driver = new ChromeDriver(options);
 
     }
 
